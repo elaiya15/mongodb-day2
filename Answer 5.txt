@@ -1,0 +1,20 @@
+
+
+QUESTION: 5.Find all the mentors with who has the mentee's count more than 15
+
+
+ANSWER:        
+
+
+db.guvidata.aggregate([
+    {"$group" : { "_id": "$Mentor", "count": { "$sum": 1 } } },
+    {"$match": {"_id" :{ "$ne" : null } , "count" : {"$gt": 15} } }, 
+    {"$project": {"Mentor" : "$_id", "_id" : 0} }
+]);
+
+
+RESUL:
+
+{
+	"Mentor" : "arun"
+}

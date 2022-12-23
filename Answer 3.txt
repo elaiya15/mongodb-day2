@@ -1,0 +1,419 @@
+
+
+QUESTION: 3.Find all the company drives and students who are appeared for the placement.
+
+
+
+
+
+Answer:
+
+
+db.guvidata.find({})
+   .projection({})
+   .sort({_id:-1})
+   .limit(100)
+  db.guvidata.aggregate([{$lookup: {
+          from: "placement",
+          localField: "users",
+          foreignField:"users",
+          as: "placement"
+        }},
+ 
+        {$project: {user:1,placement:1,_id:0}},
+      ])
+        
+Result:
+
+
+/* 1 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f086c"),
+			"users" : "arun",
+			"placement" : "appeared"
+		},
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f087c"),
+			"users" : "arun",
+			"placement" : "appeared"
+		},
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0889"),
+			"users" : "arun",
+			"placement" : "not_appeared"
+		}
+	]
+},
+
+/* 2 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f086d"),
+			"users" : "rufus",
+			"placement" : "appeared"
+		},
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f087d"),
+			"users" : "rufus",
+			"placement" : "appeared"
+		}
+	]
+},
+
+/* 3 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f086e"),
+			"users" : "elaiya",
+			"placement" : "appeared"
+		},
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f087e"),
+			"users" : "elaiya",
+			"placement" : "not_appeared"
+		}
+	]
+},
+
+/* 4 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f086f"),
+			"users" : "sabari",
+			"placement" : "appeared"
+		}
+	]
+},
+
+/* 5 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0870"),
+			"users" : "karthi",
+			"placement" : "appeared"
+		}
+	]
+},
+
+/* 6 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0871"),
+			"users" : "hari",
+			"placement" : "appeared"
+		}
+	]
+},
+
+/* 7 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0872"),
+			"users" : "vishal",
+			"placement" : "appeared"
+		}
+	]
+},
+
+/* 8 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0873"),
+			"users" : "navisha",
+			"placement" : "appeared"
+		}
+	]
+},
+
+/* 9 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0874"),
+			"users" : "ria",
+			"placement" : "appeared"
+		}
+	]
+},
+
+/* 10 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0875"),
+			"users" : "dia",
+			"placement" : "appeared"
+		}
+	]
+},
+
+/* 11 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0876"),
+			"users" : "sara",
+			"placement" : "appeared"
+		}
+	]
+},
+
+/* 12 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0877"),
+			"users" : "jacke",
+			"placement" : "appeared"
+		}
+	]
+},
+
+/* 13 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0878"),
+			"users" : "chinrasu",
+			"placement" : "appeared"
+		}
+	]
+},
+
+/* 14 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0879"),
+			"users" : "vijay",
+			"placement" : "appeared"
+		}
+	]
+},
+
+/* 15 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f087a"),
+			"users" : "rithish",
+			"placement" : "appeared"
+		}
+	]
+},
+
+/* 16 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f087b"),
+			"users" : "abdhul",
+			"placement" : "appeared"
+		}
+	]
+},
+
+/* 17 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f086c"),
+			"users" : "arun",
+			"placement" : "appeared"
+		},
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f087c"),
+			"users" : "arun",
+			"placement" : "appeared"
+		},
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0889"),
+			"users" : "arun",
+			"placement" : "not_appeared"
+		}
+	]
+},
+
+/* 18 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f086d"),
+			"users" : "rufus",
+			"placement" : "appeared"
+		},
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f087d"),
+			"users" : "rufus",
+			"placement" : "appeared"
+		}
+	]
+},
+
+/* 19 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f086e"),
+			"users" : "elaiya",
+			"placement" : "appeared"
+		},
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f087e"),
+			"users" : "elaiya",
+			"placement" : "not_appeared"
+		}
+	]
+},
+
+/* 20 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f087f"),
+			"users" : "ishuvat",
+			"placement" : "not_appeared"
+		}
+	]
+},
+
+/* 21 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0880"),
+			"users" : "simba",
+			"placement" : "not_appeared"
+		}
+	]
+},
+
+/* 22 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0881"),
+			"users" : "reena",
+			"placement" : "not_appeared"
+		}
+	]
+},
+
+/* 23 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0882"),
+			"users" : "shnnu",
+			"placement" : "not_appeared"
+		}
+	]
+},
+
+/* 24 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0883"),
+			"users" : "isha",
+			"placement" : "not_appeared"
+		}
+	]
+},
+
+/* 25 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0884"),
+			"users" : "ariya",
+			"placement" : "not_appeared"
+		}
+	]
+},
+
+/* 26 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0885"),
+			"users" : "sidu",
+			"placement" : "not_appeared"
+		}
+	]
+},
+
+/* 27 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0886"),
+			"users" : "bikil",
+			"placement" : "not_appeared"
+		}
+	]
+},
+
+/* 28 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0887"),
+			"users" : "juli",
+			"placement" : "not_appeared"
+		}
+	]
+},
+
+/* 29 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0888"),
+			"users" : "chinna",
+			"placement" : "not_appeared"
+		}
+	]
+},
+
+/* 30 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f086c"),
+			"users" : "arun",
+			"placement" : "appeared"
+		},
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f087c"),
+			"users" : "arun",
+			"placement" : "appeared"
+		},
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f0889"),
+			"users" : "arun",
+			"placement" : "not_appeared"
+		}
+	]
+},
+
+/* 31 */
+{
+	"placement" : [
+		{
+			"_id" : ObjectId("63a4327a3a3eb1f4ed2f088a"),
+			"users" : "kamesh",
+			"placement" : "not_appeared"
+		}
+	]
+}
+

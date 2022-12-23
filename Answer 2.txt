@@ -1,0 +1,338 @@
+
+QUESTION: 2.Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
+
+
+Answer: 
+
+db.company.find({})
+   .projection({})
+   .sort({_id:1})
+   .limit(100)
+
+
+
+Result:
+
+
+/* 1 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da4307b"),
+	"date" : "30-oct-2020",
+	"drive" : "MARUTHI"
+},
+
+/* 2 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da4307a"),
+	"date" : "30-oct-2020",
+	"drive" : "TECH-MACANTHIRAN"
+},
+
+/* 3 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43079"),
+	"date" : "30-oct-2020",
+	"drive" : "VOOT"
+},
+
+/* 4 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43078"),
+	"date" : "30-oct-2020",
+	"drive" : "JAVAN"
+},
+
+/* 5 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43077"),
+	"date" : "30-oct-2020",
+	"drive" : "VUE"
+},
+
+/* 6 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43076"),
+	"date" : "30-oct-2020",
+	"drive" : "FACEBOOK"
+},
+
+/* 7 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43075"),
+	"date" : "30-oct-2020",
+	"drive" : "INSTAGRAM"
+},
+
+/* 8 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43074"),
+	"date" : "30-oct-2020",
+	"drive" : "LENOVA"
+},
+
+/* 9 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43073"),
+	"date" : "30-oct-2020",
+	"drive" : "REDMI"
+},
+
+/* 10 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43072"),
+	"date" : "30-oct-2020",
+	"drive" : "REALME"
+},
+
+/* 11 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43071"),
+	"date" : "30-oct-2020",
+	"drive" : "BOATE"
+},
+
+/* 12 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43070"),
+	"date" : "30-oct-2020",
+	"drive" : "JBL"
+},
+
+/* 13 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da4306f"),
+	"date" : "30-oct-2020",
+	"drive" : "ZAPYA"
+},
+
+/* 14 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da4306e"),
+	"date" : "30-oct-2020",
+	"drive" : "EDGE"
+},
+
+/* 15 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da4306d"),
+	"date" : "30-oct-2020",
+	"drive" : "PONEPURE"
+},
+
+/* 16 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da4306c"),
+	"date" : "30-oct-2020",
+	"drive" : "oneplus"
+},
+
+/* 17 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da4306b"),
+	"date" : "30-oct-2020",
+	"drive" : "iobit"
+},
+
+/* 18 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da4306a"),
+	"date" : "30-oct-2020",
+	"drive" : "idm"
+},
+
+/* 19 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43069"),
+	"date" : "30-oct-2020",
+	"drive" : "studio code"
+},
+
+/* 20 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43068"),
+	"date" : "30-oct-2020",
+	"drive" : "panale"
+},
+
+/* 21 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43067"),
+	"date" : "30-oct-2020",
+	"drive" : "FORNE"
+},
+
+/* 22 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43066"),
+	"date" : "30-oct-2020",
+	"drive" : "KENTAL"
+},
+
+/* 23 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43065"),
+	"date" : "30-oct-2020",
+	"drive" : "LAVA"
+},
+
+/* 24 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43064"),
+	"date" : "30-oct-2020",
+	"drive" : "HAVA"
+},
+
+/* 25 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43063"),
+	"date" : "30-oct-2020",
+	"drive" : "INTEL"
+},
+
+/* 26 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43062"),
+	"date" : "30-oct-2020",
+	"drive" : "I-CORE"
+},
+
+/* 27 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43061"),
+	"date" : "15-oct-2020",
+	"drive" : "HCL"
+},
+
+/* 28 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43060"),
+	"date" : "15-oct-2020",
+	"drive" : "wipro"
+},
+
+/* 29 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da4305f"),
+	"date" : "15-oct-2020",
+	"drive" : "guvi"
+},
+
+/* 30 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da4305e"),
+	"date" : "15-oct-2020",
+	"drive" : "google"
+},
+
+/* 31 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da4305d"),
+	"date" : "15-oct-2020",
+	"drive" : "amazon"
+},
+
+/* 32 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da4305c"),
+	"date" : "15-oct-2020",
+	"drive" : "filpkart"
+},
+
+/* 33 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da4305b"),
+	"date" : "15-oct-2020",
+	"drive" : "netflix"
+},
+
+/* 34 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da4305a"),
+	"date" : "15-oct-2020",
+	"drive" : "Hotstar"
+},
+
+/* 35 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43059"),
+	"date" : "15-oct-2020",
+	"drive" : "zooho"
+},
+
+/* 36 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43058"),
+	"date" : "15-oct-2020",
+	"drive" : "IBM"
+},
+
+/* 37 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43057"),
+	"date" : "15-oct-2020",
+	"drive" : "infoces"
+},
+
+/* 38 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43056"),
+	"date" : "15-oct-2020",
+	"drive" : "HP"
+},
+
+/* 39 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43055"),
+	"date" : "15-oct-2020",
+	"drive" : "SCALER"
+},
+
+/* 40 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43054"),
+	"date" : "15-oct-2020",
+	"drive" : "VIVO"
+},
+
+/* 41 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43053"),
+	"date" : "15-oct-2020",
+	"drive" : "SAMESAGU"
+},
+
+/* 42 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43052"),
+	"date" : "15-oct-2020",
+	"drive" : "NOKIA"
+},
+
+/* 43 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43051"),
+	"date" : "15-oct-2020",
+	"drive" : "ZOOM"
+},
+
+/* 44 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da43050"),
+	"date" : "15-oct-2020",
+	"drive" : "FIREFOX"
+},
+
+/* 45 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da4304f"),
+	"date" : "15-oct-2020",
+	"drive" : "CHROM"
+},
+
+/* 46 createdAt:12/20/2022, 12:36:33 AM*/
+{
+	"_id" : ObjectId("63a0b639243c3ee99da4304e"),
+	"date" : "15-oct-2020",
+	"drive" : "MONGOBB"
+}
+

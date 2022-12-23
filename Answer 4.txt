@@ -1,0 +1,198 @@
+
+
+QUESTION: 4.Find the number of problems solved by the user in codekata
+
+
+
+Answer:  db.guvidata.find({},{codekata:1})
+
+
+Result:
+
+
+
+/* 1 createdAt:12/19/2022, 12:06:10 PM*/
+{
+	"_id" : ObjectId("63a0065ae2902ab65e2713e7"),
+	"codekata" : "155_problems_solved"
+},
+
+/* 2 createdAt:12/19/2022, 12:06:10 PM*/
+{
+	"_id" : ObjectId("63a0065ae2902ab65e2713e8"),
+	"codekata" : "115_problems_solved"
+},
+
+/* 3 createdAt:12/19/2022, 12:06:10 PM*/
+{
+	"_id" : ObjectId("63a0065ae2902ab65e2713e9"),
+	"codekata" : "205_problems_solved"
+},
+
+/* 4 createdAt:12/19/2022, 12:06:10 PM*/
+{
+	"_id" : ObjectId("63a0065ae2902ab65e2713ea"),
+	"codekata" : "111_problems_solved"
+},
+
+/* 5 createdAt:12/19/2022, 12:06:10 PM*/
+{
+	"_id" : ObjectId("63a0065ae2902ab65e2713eb"),
+	"codekata" : "115_problems_solved"
+},
+
+/* 6 createdAt:12/19/2022, 12:06:10 PM*/
+{
+	"_id" : ObjectId("63a0065ae2902ab65e2713ec"),
+	"codekata" : "165_problems_solved"
+},
+
+/* 7 createdAt:12/19/2022, 12:06:10 PM*/
+{
+	"_id" : ObjectId("63a0065ae2902ab65e2713ed"),
+	"codekata" : "78_problems_solved"
+},
+
+/* 8 createdAt:12/19/2022, 12:06:10 PM*/
+{
+	"_id" : ObjectId("63a0065ae2902ab65e2713ee"),
+	"codekata" : "115_problems_solved"
+},
+
+/* 9 createdAt:12/19/2022, 12:06:10 PM*/
+{
+	"_id" : ObjectId("63a0065ae2902ab65e2713ef"),
+	"codekata" : "115_problems_solved"
+},
+
+/* 10 createdAt:12/19/2022, 12:06:10 PM*/
+{
+	"_id" : ObjectId("63a0065ae2902ab65e2713f0"),
+	"codekata" : "105_problems_solved"
+},
+
+/* 11 createdAt:12/19/2022, 12:06:10 PM*/
+{
+	"_id" : ObjectId("63a0065ae2902ab65e2713f1"),
+	"codekata" : "78_problems_solved"
+},
+
+/* 12 createdAt:12/19/2022, 12:06:10 PM*/
+{
+	"_id" : ObjectId("63a0065ae2902ab65e2713f2"),
+	"codekata" : "115_problems_solved"
+},
+
+/* 13 createdAt:12/19/2022, 12:06:10 PM*/
+{
+	"_id" : ObjectId("63a0065ae2902ab65e2713f3"),
+	"codekata" : "100_problems_solved"
+},
+
+/* 14 createdAt:12/19/2022, 12:06:10 PM*/
+{
+	"_id" : ObjectId("63a0065ae2902ab65e2713f4"),
+	"codekata" : "129_problems_solved"
+},
+
+/* 15 createdAt:12/19/2022, 12:06:10 PM*/
+{
+	"_id" : ObjectId("63a0065ae2902ab65e2713f5"),
+	"codekata" : "115_problems_solved"
+},
+
+/* 16 createdAt:12/19/2022, 12:06:10 PM*/
+{
+	"_id" : ObjectId("63a0065ae2902ab65e2713f6"),
+	"codekata" : "115_problems_solved"
+},
+
+/* 17 createdAt:12/19/2022, 12:17:58 PM*/
+{
+	"_id" : ObjectId("63a0091ee2902ab65e2713f7"),
+	"codekata" : "155_problems_solved"
+},
+
+/* 18 createdAt:12/19/2022, 12:17:58 PM*/
+{
+	"_id" : ObjectId("63a0091ee2902ab65e2713f8"),
+	"codekata" : "115_problems_solved"
+},
+
+/* 19 createdAt:12/19/2022, 12:17:58 PM*/
+{
+	"_id" : ObjectId("63a0091ee2902ab65e2713f9"),
+	"codekata" : "205_problems_solved"
+},
+
+/* 20 createdAt:12/19/2022, 12:17:58 PM*/
+{
+	"_id" : ObjectId("63a0091ee2902ab65e2713fa"),
+	"codekata" : "111_problems_solved"
+},
+
+/* 21 createdAt:12/19/2022, 12:17:58 PM*/
+{
+	"_id" : ObjectId("63a0091ee2902ab65e2713fb"),
+	"codekata" : "115_problems_solved"
+},
+
+/* 22 createdAt:12/19/2022, 12:17:58 PM*/
+{
+	"_id" : ObjectId("63a0091ee2902ab65e2713fc"),
+	"codekata" : "165_problems_solved"
+},
+
+/* 23 createdAt:12/19/2022, 12:17:58 PM*/
+{
+	"_id" : ObjectId("63a0091ee2902ab65e2713fd"),
+	"codekata" : "78_problems_solved"
+},
+
+/* 24 createdAt:12/19/2022, 12:17:58 PM*/
+{
+	"_id" : ObjectId("63a0091ee2902ab65e2713fe"),
+	"codekata" : "115_problems_solved"
+},
+
+/* 25 createdAt:12/19/2022, 12:17:58 PM*/
+{
+	"_id" : ObjectId("63a0091ee2902ab65e2713ff"),
+	"codekata" : "115_problems_solved"
+},
+
+/* 26 createdAt:12/19/2022, 12:17:58 PM*/
+{
+	"_id" : ObjectId("63a0091ee2902ab65e271400"),
+	"codekata" : "105_problems_solved"
+},
+
+/* 27 createdAt:12/19/2022, 12:17:58 PM*/
+{
+	"_id" : ObjectId("63a0091ee2902ab65e271401"),
+	"codekata" : "78_problems_solved"
+},
+
+/* 28 createdAt:12/19/2022, 12:17:58 PM*/
+{
+	"_id" : ObjectId("63a0091ee2902ab65e271402"),
+	"codekata" : "90_problems_solved"
+},
+
+/* 29 createdAt:12/19/2022, 12:17:58 PM*/
+{
+	"_id" : ObjectId("63a0091ee2902ab65e271403"),
+	"codekata" : "10_problems_solved"
+},
+
+/* 30 createdAt:12/19/2022, 12:17:58 PM*/
+{
+	"_id" : ObjectId("63a0091ee2902ab65e271404"),
+	"codekata" : "129_problems_solved"
+},
+
+/* 31 createdAt:12/19/2022, 12:17:58 PM*/
+{
+	"_id" : ObjectId("63a0091ee2902ab65e271405"),
+	"codekata" : "115_problems_solved"
+}
